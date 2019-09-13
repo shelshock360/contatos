@@ -8,6 +8,12 @@
     <ion-item *ngFor="let contato of contatos | async">
       <ion-label>{{ contato.nome }}</ion-label>
       <ion-label>{{ contato.telefone }}</ion-label>
+      <ion-button (click)="alterar(contato)">
+        <ion-icon>name="create"</ion-icon>
+
+      </ion-button>
     </ion-item>
+
+
   </ion-list>
 </ion-content>

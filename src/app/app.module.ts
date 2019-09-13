@@ -20,14 +20,17 @@ import { ListarContatoComponent } from './contato/listar-contato/listar-contato.
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule,
     FormsModule,
     AngularFireModule.initializeApp({
-      apiKey: "AIzaSyDLSZzvbg9k0qI6ETdBMBlXeZ7WTGKxp8g",
-      authDomain: "meuapp-29395.firebaseapp.com",
-      databaseURL: "https://meuapp-29395.firebaseio.com",
-      projectId: "meuapp-29395",
-      storageBucket: "meuapp-29395.appspot.com",
-      messagingSenderId: "621316601397",
-      appId: "1:621316601397:web:294cac78ab669521"
+      apiKey: "AIzaSyAuCnHvYjP67wCFUOKiqTZu8AvvlWPQsEc",
+      authDomain: "aula-ab0bc.firebaseapp.com",
+      databaseURL: "https://aula-ab0bc.firebaseio.com",
+      projectId: "aula-ab0bc",
+      storageBucket: "aula-ab0bc.appspot.com",
+      messagingSenderId: "397139605160",
+      appId: "1:397139605160:web:7b144afdee19d69b46749d"
+
+ 
     }),
+    
     AngularFireDatabaseModule
   ],
   providers: [

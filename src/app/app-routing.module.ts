@@ -4,7 +4,7 @@ import { SalvarContatoComponent } from './contato/salvar-contato/salvar-contato.
 import { ListarContatoComponent } from './contato/listar-contato/listar-contato.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: '', redirectTo: 'listar', pathMatch: 'full' },
   { path: 'home', loadChildren: './home/home.module#HomePageModule' },
   { path: 'contato', component: SalvarContatoComponent},
   { path: 'listar', component: ListarContatoComponent}
